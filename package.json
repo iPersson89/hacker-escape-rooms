@@ -10,7 +10,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch"
+  "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch"
   },
   "repository": {
     "type": "git",
