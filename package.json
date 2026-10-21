@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "name": "hacker-escape-rooms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPersson89/hacker-escape-rooms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iPersson89/hacker-escape-rooms/issues"
+  },
+  "homepage": "https://github.com/iPersson89/hacker-escape-rooms#readme"
+}
