@@ -21,7 +21,7 @@
           <div class="flex shrink-0 items-center gap-6 lg:items-end">
             <img
               src="img/Group 1.png"
-              alt="Logotyp"
+              alt="Logotype"
               class="h-20 w-auto object-contain"
             />
             <h1
@@ -48,7 +48,11 @@
       </header>
 
       <section class="relative w-full">
-        <img src="img/image 2.png" alt="Main image" class="h-auto w-full" />
+        <img
+          src="img/image 2.png"
+          alt="Main image of a Hacker"
+          class="h-auto w-full"
+        />
 
         <div
           class="sticky z-10 mx-auto -mt-2 flex max-w-2xl flex-col justify-center gap-8 px-6 sm:-mt-8 md:flex-row md:gap-4"
@@ -75,12 +79,15 @@
         >
       </section>
 
-      <section class="m-16 flex flex-col items-center">
+      <section
+        aria-label="Customer Reviews"
+        class="m-16 flex flex-col items-center"
+      >
         <div class="flex justify-center gap-12">
           <figure class="flex items-start gap-4">
             <img
               src="img/image 3.png"
-              alt="Portrait of person"
+              alt="Profile picture of John Doe 1"
               class="h-16 w-auto max-w-sm object-contain"
             />
             <div class="flex flex-col">
@@ -97,7 +104,7 @@
           <figure class="hidden items-start gap-4 md:flex">
             <img
               src="img/image 3.png"
-              alt="Portrait of person"
+              alt="Profile picture of John Doe 2"
               class="h-16 w-auto max-w-sm object-contain"
             />
             <div class="flex flex-col">
@@ -117,10 +124,13 @@
         </figcaption>
       </section>
 
-      <div class="mx-auto max-w-4xl bg-white pb-12 shadow-2xl">
+      <div
+        aria-label="Available rooms"
+        class="mx-auto max-w-4xl bg-white pb-12"
+      >
         <div class="mx-auto w-full max-w-4xl overflow-x-hidden">
           <div
-            class="my-8 flex snap-x snap-mandatory flex-nowrap justify-center gap-4 overflow-x-auto px-4 pb-4"
+            class="my-8 flex snap-x snap-mandatory flex-nowrap justify-start gap-4 overflow-x-auto px-4 pb-4"
           >
             <article
               class="flex w-64 shrink-0 snap-center flex-col overflow-hidden rounded-2xl bg-white shadow-xl"
@@ -328,12 +338,12 @@
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-6xl">
+      <section class="mx-auto w-full max-w-7xl">
         <div class="flex flex-col items-center md:flex-row">
           <figure class="h-full w-full md:w-1/2">
             <img
               src="img/nesa-by-makers-IgUR1iX0mqM-unsplash 1.png"
-              alt="Group of people"
+              alt="Two colleagues collaborating at a laptop in an office space."
               class="h-full w-full object-cover"
             />
           </figure>
@@ -360,7 +370,7 @@
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-6xl">
+      <section class="mx-auto w-full max-w-7xl">
         <div class="flex flex-col-reverse items-center md:flex-row">
           <div
             class="flex w-full flex-col items-start justify-center p-14 text-left md:w-1/2"
@@ -385,7 +395,7 @@
           <figure class="h-full w-full md:w-1/2">
             <img
               src="img/kelly-sikkema-YK0HPwWDJ1I-unsplash 1.png"
-              alt="Group of people"
+              alt="A developer sitting alone at a desk, focused on coding on a monitor."
               class="h-full w-full object-cover"
             />
           </figure>
@@ -394,23 +404,21 @@
 
       <footer class="mt-20 bg-[#011827] px-12 py-12 text-white md:px-24">
         <div
-          class="mx-auto flex max-w-6xl flex-col items-start justify-start gap-16 md:flex-row md:gap-32"
+          class="mx-auto flex max-w-6xl flex-col items-start justify-center gap-16 md:flex-row md:gap-32"
         >
           <div class="w-full max-w-xs">
             <h5 class="mb-3 text-base font-bold">[Esc] Hacker Escape Rooms</h5>
-            <p class="font-roboto text-sm leading-relaxed text-gray-300">
+            <p class="font-roboto text-base leading-relaxed text-gray-300">
               Quodsi haberent magnalia inter potentiam et divitias, et non illam
               quidem haec eo spectant haec quoque vos omnino desit illud quo
               solo felicitatis libertatisque perficiuntur.
             </p>
           </div>
 
-          <div
-            class="flex w-full flex-col gap-12 sm:flex-row md:w-auto md:gap-16"
-          >
-            <div class="w-full max-w-xs">
+          <div class="flex flex-col gap-12 sm:flex-row sm:gap-20">
+            <div>
               <h5 class="mb-3 text-base font-bold">Site map</h5>
-              <p class="font-roboto text-sm leading-relaxed text-gray-300">
+              <p class="font-roboto text-base leading-relaxed text-gray-300">
                 The Story<br />
                 Contact Us<br />
                 Legal<br /><br />
@@ -419,9 +427,11 @@
               </p>
             </div>
 
-            <div class="w-full max-w-xs">
-              <h5 class="mb-3 text-base font-bold">Follow us on</h5>
-              <p class="font-roboto text-sm leading-relaxed text-gray-300">
+            <div>
+              <h5 class="mb-3 text-base font-bold whitespace-nowrap">
+                Follow us on
+              </h5>
+              <p class="font-roboto text-base leading-relaxed text-gray-300">
                 Facebook<br />
                 Instagram<br />
                 Twitter
