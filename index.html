@@ -32,16 +32,34 @@
               Rooms
             </h1>
           </div>
+          <button
+            class="flex flex-row items-center justify-center bg-[#011827] px-4 py-2 md:hidden"
+            id="main-menu-toggle"
+            aria-expanded="false"
+            aria-controls="main-menu"
+            aria-label="Open menu"
+          >
+            <img src="img/hamburgerMenu.png" alt="Mobile Menu" class="-mt-8" />
+          </button>
         </div>
 
         <nav
-          class="font-roboto hidden justify-center space-x-6 px-4 pt-4 pb-4 text-sm font-bold sm:space-x-12 sm:text-base md:flex md:space-x-24 md:pt-6 md:pb-2 md:text-lg"
-          aria-label="main"
+          id="main-menu"
+          class="font-roboto animate-fade-in fixed inset-4 z-50 flex hidden flex-col items-center justify-center space-y-10 bg-[#011827] px-4 text-3xl 
+          font-bold ring-16 ring-white/30 md:static md:flex md:flex-row md:space-y-0 md:space-x-24 md:bg-transparent md:pt-6 md:pb-2 md:text-xl md:ring-0"
         >
+          <button
+            class="font-roboto absolute top-6 right-6 p-2 text-7xl text-white hover:text-gray-300 md:hidden"
+            id="main-menu-close"
+            aria-label="Close menu"
+          >
+            <img src="img/close.png" alt="Closing Menu" />
+          </button>
+
           <a href="#play online" class="hover:opacity-90">Play online</a>
           <a href="#play on site" class="hover:opacity-90">Play on-site</a>
           <a href="#the story" class="hover:opacity-90">The story</a>
-          <a href="#contact us" class="text-[#8ACFE5] hover:opacity-90"
+          <a href="#contact us" class="hover:opacity-90 md:text-[#8ACFE5]"
             >Contact us</a
           >
         </nav>
@@ -480,5 +498,6 @@
         </div>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
