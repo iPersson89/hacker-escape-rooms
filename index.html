@@ -14,6 +14,7 @@
   </head>
   <body class="bg-gray-100">
     <div class="mx-auto min-h-screen max-w-7xl bg-white shadow-2xl">
+   
       <header class="sticky top-0 z-50 w-full bg-[#011827] text-white">
         <div
           class="flex items-center justify-between gap-6 px-6 py-4 transition-all duration-500 lg:items-end"
@@ -32,37 +33,8 @@
               Rooms
             </h1>
           </div>
-          <button
-            class="flex flex-row items-center justify-center bg-[#011827] px-4 py-2 md:hidden"
-            id="main-menu-toggle"
-            aria-expanded="false"
-            aria-controls="main-menu"
-            aria-label="Open menu"
-          >
-            <img src="img/hamburgerMenu.png" alt="Mobile Menu" class="-mt-8" />
-          </button>
+          <!-- JavaScript lägger till hamburgerknappen här -->
         </div>
-
-        <nav
-          id="main-menu"
-          class="font-roboto animate-fade-in fixed inset-4 z-50 flex hidden flex-col items-center justify-center space-y-10 bg-[#011827] px-4 text-3xl 
-          font-bold ring-16 ring-white/30 md:static md:flex md:flex-row md:space-y-0 md:space-x-24 md:bg-transparent md:pt-6 md:pb-2 md:text-xl md:ring-0"
-        >
-          <button
-            class="font-roboto absolute top-6 right-6 p-2 text-7xl text-white hover:text-gray-300 md:hidden"
-            id="main-menu-close"
-            aria-label="Close menu"
-          >
-            <img src="img/close.png" alt="Closing Menu" />
-          </button>
-
-          <a href="#play online" class="hover:opacity-90">Play online</a>
-          <a href="#play on site" class="hover:opacity-90">Play on-site</a>
-          <a href="#the story" class="hover:opacity-90">The story</a>
-          <a href="#contact us" class="hover:opacity-90 md:text-[#8ACFE5]"
-            >Contact us</a
-          >
-        </nav>
       </header>
 
       <section class="relative w-full">
@@ -498,6 +470,7 @@
         </div>
       </footer>
     </div>
-    <script src="script.js"></script>
+    <!--script src="script.js"></script>-->
+    <script src="domManipulation.js"></script>
   </body>
 </html>
